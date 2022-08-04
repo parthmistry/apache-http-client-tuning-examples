@@ -1,0 +1,4 @@
+application:
+  elasticsearch:
+    hostname: elasticsearch-server-host
+    port: elasticsearch-server-port

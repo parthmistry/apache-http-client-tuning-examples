@@ -1,0 +1,18 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.2'
+	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+	id 'java'
+}
+
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'co.elastic.clients:elasticsearch-java:8.3.3'
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
+	implementation 'jakarta.json:jakarta.json-api:2.0.1'
+}
